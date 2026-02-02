@@ -18,7 +18,8 @@ class WeatherService {
         return "Hot";
       } else if (temp > 20) {
         return "Warm";
-     
+      } else if (temp > 0) {
+        return "Chilling";
       } else if (temp > -20) {
         return "Bracing";
       } else {
